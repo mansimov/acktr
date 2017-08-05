@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python load.py --env-id HalfCheetah-v1 --log-dir /tmp/cont_control/unknown2 --load-model True --use-pixels True --load-dir ~/projects/async_ng_ac_cims_logs/halfcheetah-pixels --deterministic True --save True --save-dir ./halfcheetah
