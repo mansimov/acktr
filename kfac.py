@@ -778,7 +778,7 @@ class KfacOptimizer():
         if KFAC_DEBUG:
             print 'apply vFv clipping'
 
-        scaling = tf.minimum(1. if self._upper_bound_kl else float("inf"), tf.sqrt(self._clip_kl / vg))
+        scaling = tf.minimum(1., tf.sqrt(self._clip_kl / vg))
         if KFAC_DEBUG:
             scaling = tf.Print(scaling, [tf.convert_to_tensor(
                 'clip: '), scaling, tf.convert_to_tensor(' vFv: '), vg])

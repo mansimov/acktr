@@ -20,4 +20,4 @@ Then run
 
 ```sh run_load_pixels.sh```
 
-Pretrained models available at [http://www.cs.nyu.edu/~mansimov/mujoco-pixels-policies](http://www.cs.nyu.edu/~mansimov/mujoco-pixels-policies)
+Pretrained models available at [https://www.dropbox.com/sh/6oru65vsafrnjez/AACfc2LQZUoZUIgpT8x0KTWDa?dl=0](https://www.dropbox.com/sh/6oru65vsafrnjez/AACfc2LQZUoZUIgpT8x0KTWDa?dl=0)
